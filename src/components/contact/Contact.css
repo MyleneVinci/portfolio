@@ -1,0 +1,40 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+    background-color: black;
+}
+
+.logo {
+    height: 60px;
+}
+
+.contact-h2-title {
+    background-color: white;
+    max-width: max-content;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.contact-content {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.contact-content a {
+    text-decoration: none;
+
+}
+
+.logo-container {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}

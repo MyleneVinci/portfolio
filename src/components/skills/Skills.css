@@ -1,0 +1,30 @@
+.Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background-color: #cecfcf;
+}
+
+.slide-icon {
+    height: 60px;
+}
+
+.skills-h2-title {
+    background-color: white;
+    max-width: max-content;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+.my-skills {
+    margin: auto;
+    width: 80%;
+}
