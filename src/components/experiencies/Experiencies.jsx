@@ -28,11 +28,11 @@ const Experiencies = () => {
                 }
             </div>
             <div className='timeline-img'>
-                <img className='experiencies-img' src={timeline} alt="" />
-            </div>
+                <img className='experiencies-img' src={timeline} alt="timeline" />
+        </div>
     </div>
     )
 }
 
-export default Experiencies
+export default Experiencies;
 

@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fira+Code&family=Marck+Script&family=Poppins:wght@100;200;300;400;500&family=Saira+Condensed:wght@100;200;300;500&family=ZCOOL+QingKe+HuangYou&display=swap');* {
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fira+Code&family=Marck+Script&family=Poppins:wght@100;200;300;400;500&family=Saira+Condensed:wght@100;200;300;500&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
   margin: 0;
   padding:0;
 }
@@ -10,3 +12,25 @@
 .App p {
   font-family: 'Fira Code', monospace;
 }
+
+@media screen and (max-width: 768px) {
+  .back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background: rgb(0, 119, 255);
+    color: white;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 3px 2px 2px rgb(82, 81, 81);
+  }
+  
+  .back-to-top:checked {
+    background: rgb(5, 19, 83);
+  }
+}
+
+

@@ -20,7 +20,7 @@ const Training = () => {
                     description={data.description}
                 />
             ))
-            }
+        }
         </div>
         <div className='timeline-img'>
             <img className='training-img' src={timeline} alt="timeline" />
@@ -29,4 +29,4 @@ const Training = () => {
     )
 }
 
-export default Training
+export default Training;

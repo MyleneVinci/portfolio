@@ -20,11 +20,29 @@
     padding: 10px 50px 10px 50px;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    box-shadow: 5px 5px 10px grey;
-
+    box-shadow: 2px 3px 5px rgb(36, 35, 35);
 }
 
 .my-skills {
     margin: auto;
     width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .Skills {
+        height: max-content;
+        padding: 40px;
+    }
+
+    .skills-content {
+        flex-direction: column;
+    }
+
+    .skills-h2-title {
+        margin-bottom: 40px;
+    }
+
+    .avatar {
+        margin-bottom: 40px;
+    }
 }

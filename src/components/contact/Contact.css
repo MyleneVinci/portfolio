@@ -8,6 +8,7 @@
 
 .logo {
     height: 60px;
+    margin: 10px;
 }
 
 .contact-h2-title {
@@ -19,7 +20,7 @@
     padding: 10px 50px 10px 50px;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 2px 3px 5px rgb(138, 135, 135);
 }
 
 .contact-content {
@@ -29,12 +30,42 @@
 }
 
 .contact-content a {
+    color: #61bcc6;
     text-decoration: none;
-
 }
 
 .logo-container {
     display: flex;
     width: 10%;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .Contact {
+        height: max-content;
+        padding: 40px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-h2-title {
+        margin-bottom: 40px;
+    }
+
+    .text-container {
+        text-align: center;
+        margin: 10px;
+    }
+    .logo-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+        margin: 25px 25px 0 25px;
+    }
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 550px;
+    height: 600px;
     background-color: #e8d59a;
 }
 
@@ -17,7 +17,7 @@
     margin-top: 30px;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 2px 3px 5px rgb(36, 35, 35);
 }
 
 .training-card {
@@ -35,4 +35,39 @@
 
 .training-img {
     width: 45%;
+}
+
+@media screen and (max-width: 768px) {
+    .Training {
+        height: max-content;
+        padding: 40px;
+    }
+
+    .training-content {
+        flex-direction: column;
+    }
+    
+    .training-card {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .training-h2-title {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .avatar {
+        margin-bottom: 40px;
+    }
+
+    .myPresentation{
+        width: 100%;
+        text-align: center;
+    }
+
+    .timeline-img {
+        display: none;
+    }
 }
