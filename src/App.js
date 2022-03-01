@@ -4,6 +4,7 @@ import AboutMe from './components/aboutMe/AboutMe';
 import Skills from './components/skills/Skills';
 import Training from './components/training/Training';
 import Experiencies from './components/experiencies/Experiencies';
+import Project from './components/project/Project';
 import Contact from './components/contact/Contact';
 import './App.css';
 
@@ -35,10 +36,11 @@ function App() {
       <Skills />
       <Training />
       <Experiencies />
+      <Project />
       <Contact />
       {showButton && (
         <button onClick={scrollToTop} className="back-to-top">
-          &#8679;
+          ⇧
         </button>
       )}
     </div>

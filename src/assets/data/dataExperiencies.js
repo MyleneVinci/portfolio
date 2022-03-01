@@ -3,13 +3,24 @@ const dataExperiencies = [
     {
         title:"Développeur web et web mobile junior",
         location: "Wild Code School",
+        date:"Février 2022 (en cours)",
+        task1:"Travail de groupe : réalisation d'un site vitrine permettant de présenter l'activité du client consultant RH, et servant d'interface avec ses clients entreprises et non-salariés",
+        task2: null,
+        task3: null,
+        githubLink: null,
+        deployedLink:null,
+        technologies: "#HTML5, #CSS3, #(Hooks)), express, Méthodes SCRUM"
+},
+    {
+        title:"Développeur web et web mobile junior",
+        location: "Wild Code School",
         date:"Janvier 2022 (3 semaines)",
         task1:"Travail de groupe : réalisation d'un réseau social de partage de photos de personnages fictifs.",
         task2: null,
         task3: null,
         githubLink:"https://github.com/MyleneVinci/Sainstagram",
         deployedLink:"https://saintstagram.netlify.app/",
-        technologies: "#HTML5, #CSS3, #React.js(Hooks), API, Méthodes SCRUM"
+        technologies: "#HTML5, #CSS3, #React(Hooks), API, Méthodes SCRUM"
 },
 {
     title:"Signataire de rapport d'essais",

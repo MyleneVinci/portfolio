@@ -1,74 +1,84 @@
-.Training {
+.Project {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: max-content;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #e8d59a;
+    background-color: #e24a54;
 }
 
-.training-h2-title {
+.project-h2-title {
     background-color: white;
     max-width: max-content;
     height: max-content;
     margin: auto;
     text-align: center;
     padding: 10px 50px 10px 50px;
-    margin-top: 30px;
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
     box-shadow: 2px 3px 5px rgb(36, 35, 35);
 }
 
-.training-card {
+.project-content {
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 
-.timeline-img {
+.project1 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
-.training-img {
-    width: 45%;
+.project-content p {
+    width: 100%;
+    text-align: center;
+}
+
+.project2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.mockup {
+    height: 20vh;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .Training {
+    .Project {
         height: max-content;
         padding: 40px;
     }
 
-    .training-content {
+    .project-content {  
+        height: 80%;
         flex-direction: column;
-    }
-    
-    .training-card {
-        flex-direction: column;
-        margin: auto;
         align-items: center;
+        justify-content: space-evenly;
     }
 
-    .training-h2-title {
-        margin-top: 0;
-        margin-bottom: 40px;
-    }
-
-    .avatar {
-        margin-bottom: 40px;
-    }
-
-    .myPresentation{
+    .project1 {
         width: 100%;
-        text-align: center;
+        margin-bottom: 40px;
     }
 
-    .timeline-img {
-        display: none;
+    .project2 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .mockup {
+    height: 200px;
+    max-width: 100%;
     }
 }
