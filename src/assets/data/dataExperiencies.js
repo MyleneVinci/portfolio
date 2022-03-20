@@ -3,13 +3,25 @@ const dataExperiencies = [
     {
         title:"Développeur web et web mobile junior",
         location: "Wild Code School",
-        date:"Février 2022 (en cours)",
-        task1:"Travail de groupe : réalisation d'un site vitrine permettant de présenter l'activité du client consultant RH, et servant d'interface avec ses clients entreprises et non-salariés",
+        date:"Mars 2022 (3 jours)",
+        task1:"Travail de groupe: finaliste au hackathon Enedis autour des 8 fondamentaux de la prévention et de la sécurité au travail",
         task2: null,
         task3: null,
         githubLink: null,
         deployedLink:null,
-        technologies: "#HTML5, #CSS3, #(Hooks)), express, Méthodes SCRUM"
+        technologies: "#HTML5, #CSS3, #(Hooks)), #express js, Méthodes SCRUM"
+},
+
+    {
+        title:"Développeur web et web mobile junior",
+        location: "Wild Code School",
+        date:"Février 2022 (en cours)",
+        task1:"Travail de groupe en partenariat avec un professionnel: réalisation d'un site vitrine permettant de présenter l'activité du client consultant RH, et servant d'interface avec ses clients entreprises et non-salariés",
+        task2: null,
+        task3: null,
+        githubLink: null,
+        deployedLink:null,
+        technologies: "#HTML5, #CSS3, #React(Hooks), #express js, Méthodes SCRUM"
 },
     {
         title:"Développeur web et web mobile junior",
