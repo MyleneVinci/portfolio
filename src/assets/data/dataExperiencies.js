@@ -9,7 +9,7 @@ const dataExperiencies = [
         task3: null,
         githubLink: null,
         deployedLink:null,
-        technologies: "#HTML5, #CSS3, #(Hooks)), #express js, Méthodes SCRUM"
+        technologies: "#HTML5, #CSS3, #React js, #express js, Méthodes SCRUM"
 },
 
     {
@@ -21,7 +21,7 @@ const dataExperiencies = [
         task3: null,
         githubLink: null,
         deployedLink:null,
-        technologies: "#HTML5, #CSS3, #React(Hooks), #express js, Méthodes SCRUM"
+        technologies: "#HTML5, #CSS3, #React js, #express js, Méthodes SCRUM"
 },
     {
         title:"Développeur web et web mobile junior",
@@ -32,7 +32,7 @@ const dataExperiencies = [
         task3: null,
         githubLink:"https://github.com/MyleneVinci/Sainstagram",
         deployedLink:"https://saintstagram.netlify.app/",
-        technologies: "#HTML5, #CSS3, #React(Hooks), API, Méthodes SCRUM"
+        technologies: "#HTML5, #CSS3, #React js, API, Méthodes SCRUM"
 },
 {
     title:"Signataire de rapport d'essais",
